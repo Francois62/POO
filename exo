@@ -1,0 +1,44 @@
+Pour Vendredi prochain :
+
+—————————————————————————————
+
+Créer un jeu en Programmation Orientée Objet :
+
+- Le jeu est rangé dans un espace de nom « Game » 
+
+- Une classe Personnage (Character).
+- Un Personnage peut se déplacer (move).
+- Un Personnage peut attaquer (attack).
+
+- Une classe Joueur (Player). Un Joueur est un Personnage.
+- Un Joueur a un nom.
+- Un Joueur a une arme.
+
+- Une classe Monstre (Monster). Un Monstre est un Personnage.
+- Un Monstre a une couleur.
+
+
+- Une classe Goblin (Globin). Un Goblin est un Monstre de couleur rouge.
+- Une classe Demon (Demon). Un Démon est un Monstre de couleur verte.
+
+- Une classe Hero (Hero). Un Hero est un Joueur ayant un nom libre.
+- Un Hero a une arme de type Epée (Sword).
+
+- Une classe Guerrier (Warrior). Un Guerrier est un Joueur ayant un nom libre.
+- Un Guerrier a une arme de type Arc (Bow).
+
+- Les armes sont rangées dans un espace de nom « Weapons » qui est lui même rangé dans l’espace de nom « Game » 
+- Les joueurs sont rangées dans un espace de nom « Players » qui est lui même rangé dans l’espace de nom « Game » 
+- Les monstres sont rangées dans un espace de nom « Monsters » qui est lui même rangé dans l’espace de nom « Game » 
+
+- Une Arme (Weapon) peut attaquer.
+- Les Arc et Epée sont des armes.
+- Un Joueur attaque à l’aide de son arme. 
+
+- Seules les méthodes attaquer() de Arc, Epée, et attaquer() et move() de Hero, Guerrier, Goblin, Démon sont publiques.
+- Aucun attribut n’est public.
+
+—————————————————
+
+- Passer vos codes de connexion à la base de donnée et requête de mysqli_…(); à PDO.
+- Installer composer et Symfony
